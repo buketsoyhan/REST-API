@@ -1,0 +1,18 @@
+{
+  "name": "fake-rest-api",
+  "version": "1.0.0",
+  "description": "Fake Rest Api",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "json-server --watch api/employees.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buketsoyhan"
+  },
+  "author": "Buket Soyhan",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
